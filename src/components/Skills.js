@@ -7,7 +7,7 @@ const Skills = () => {
         <div class="text-amber-500 text-5xl text-center font-bold italic mb-10 ">
           Skills
         </div>
-        <div class="flex flex-col md:flex-row mx-0 md:mx-56">
+        <div class="flex flex-col md:flex-row mx-0 md:mx-56 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110">
           <div class="bg-amber-400 md:w-1/2">
             <div class=" text-2xl font-bold text-center m-4 ">
               Full Stack Development

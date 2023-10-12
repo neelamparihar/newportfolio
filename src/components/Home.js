@@ -37,7 +37,7 @@ const About = () => {
         <button
           type="button"
           onClick={onButtonClick}
-          class="text-black bg-amber-500 m-10 hover:bg-orange-500 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          class="text-black bg-amber-500 m-10 hover:bg-orange-500 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-3 md:mr-0 dark:bg-black dark:text-black dark:hover:bg-blue-700 dark:focus:ring-blue-800"
         >
           Download CV
         </button>
@@ -48,7 +48,7 @@ const About = () => {
           <img
             src={neelamphoto03}
             alt="profile"
-            class="absolute top-0 left-20  h-3/4 z-10"
+            class=" absolute top-0 left-20  h-3/4 z-10 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110"
           />
         </div>
 
