@@ -41,22 +41,22 @@ const About = () => {
               What I Do
             </div>
             <div class="">
-              <div class="bg-amber-500 text-center mx-24 rounded-full py-2 mt-6 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110">
+              <div class="bg-amber-500 text-center mx-24 rounded-full py-2 px-2 mt-6 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110">
                 <div class="font-bold text-xl">UI/UX Design</div>
                 <div class="">
-                  create intuitive, visually pleasing, and <br /> highly
+                  Create intuitive, visually pleasing, and <br /> highly
                   functional digital experiences
                 </div>
               </div>
-              <div class="bg-amber-500 text-center mx-24 rounded-full py-2 mt-6 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110">
+              <div class="bg-amber-500 text-center mx-24 rounded-full py-2 px-2 mt-6 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110">
                 <div class="font-bold text-xl">Website Design</div>
                 <div class="">
-                  transforming creative visions into stunning, user-friendly
+                  Transforming creative visions into stunning, user-friendly
                   websites that captivate, engage, and leave a lasting
                   impression.
                 </div>
               </div>
-              <div class="bg-amber-500 text-center mx-24 rounded-full py-2 mt-6 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110">
+              <div class="bg-amber-500 text-center mx-24 rounded-full py-2 px-2 mt-6 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110">
                 <div class="font-bold text-xl">Web Application</div>
                 <div class="">
                   With a blend of creativity and technical expertise, I build
