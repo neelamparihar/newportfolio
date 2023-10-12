@@ -34,14 +34,14 @@ const Skills = () => {
               <img src={checkmark} alt="Experience icon" class="w-5 h-5 mx-5" />
               <div>
                 <h3 class="font-bold">ReactJs</h3>
-                <p class="text-xs text-slate-600">Basic</p>
+                <p class="text-xs text-slate-600">Intermediate</p>
               </div>
             </div>
             <div class="flex flex-row">
               <img src={checkmark} alt="Experience icon" class="w-5 h-5 mx-5" />
               <div>
                 <h3 class="font-bold">JavaScript</h3>
-                <p class="text-xs text-slate-600">Basic</p>
+                <p class="text-xs text-slate-600">Intermediate</p>
               </div>
             </div>
             <div class="flex flex-row">
@@ -105,7 +105,7 @@ const Skills = () => {
                 />
                 <div>
                   <h3 class="font-bold">Git/Github</h3>
-                  <p class="text-xs text-slate-600">Intermediate</p>
+                  <p class="text-xs text-slate-600">Experienced</p>
                 </div>
               </div>
             </div>

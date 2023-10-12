@@ -1,7 +1,7 @@
 import React from "react";
 import bloodbank from "../assets/bloodbank.png";
 import ecommerce from "../assets/ecommerce.jpg";
-import food from "../assets/food.jpg";
+import resort4 from "../assets/resort4.jpg";
 const Project = () => {
   return (
     <section id="project">
@@ -37,9 +37,13 @@ const Project = () => {
             </div>
             <div class="bg-amber-400 rounded-lg mx-5">
               <div class=" flex justify-center items-center p-3">
-                <img src={food} alt="Project 2" class="h-48 w-48 rounded-lg" />
+                <img
+                  src={resort4}
+                  alt="Project 2"
+                  class="h-48 w-48 rounded-lg"
+                />
               </div>
-              <h2 class="text-2xl font-bold text-center">Go-foody</h2>
+              <h2 class="text-2xl font-bold text-center">Event-Booking</h2>
               <div class="flex justify-center items-center  md:justify-center md:items-center">
                 <button
                   type="button"

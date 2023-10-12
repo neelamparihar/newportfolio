@@ -5,16 +5,17 @@ import linkedIn from "../assets/linkedIn.png";
 import shape1 from "../assets/shape1.png";
 
 const About = () => {
+  // Function will execute on click of button
   const onButtonClick = () => {
     // using Java Script method to get PDF file
-    fetch("resume.pdf").then((response) => {
+    fetch("0157CS201106Neelam.pdf").then((response) => {
       response.blob().then((blob) => {
         // Creating new object of PDF file
         const fileURL = window.URL.createObjectURL(blob);
         // Setting various property values
         let alink = document.createElement("a");
         alink.href = fileURL;
-        alink.download = "resume.pdf";
+        alink.download = "0157CS201106Neelam.pdf";
         alink.click();
       });
     });
