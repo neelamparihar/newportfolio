@@ -89,6 +89,24 @@ const Navbar = () => {
                 Project
               </a>
             </li>
+            <li>
+              <a
+                href="#certificate"
+                class="block py-2 pl-3 pr-4   rounded md:bg-transparent md:text-gray-900 md:p-0 md:dark:text-blue-500"
+                aria-current="page"
+              >
+                Certification
+              </a>
+            </li>
+            <li>
+              <a
+                href="#dsa"
+                class="block py-2 pl-3 pr-4   rounded md:bg-transparent md:text-gray-900 md:p-0 md:dark:text-blue-500"
+                aria-current="page"
+              >
+                DSA-Zone
+              </a>
+            </li>
           </ul>
         </div>
       </div>

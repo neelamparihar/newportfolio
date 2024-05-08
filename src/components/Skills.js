@@ -7,8 +7,8 @@ const Skills = () => {
         <div class="text-amber-500 text-5xl text-center font-bold italic mb-10 ">
           Skills
         </div>
-        <div class="flex flex-col md:flex-row mx-0 md:mx-56 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110">
-          <div class="bg-amber-400 md:w-1/2">
+        <div class="flex flex-col md:flex-row mx-0 md:mx-56 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 ">
+          <div class="bg-amber-400 md:w-1/2 rounded-l-lg">
             <div class=" text-2xl font-bold text-center m-4 ">
               Full Stack Development
             </div>
@@ -26,7 +26,7 @@ const Skills = () => {
                 class="w-5 h-5 mx-5 "
               />
               <div>
-                <h3 class="font-bold">CSS</h3>
+                <h3 class="font-bold"> Tailwind CSS</h3>
                 <p class="text-xs text-slate-600">Experienced</p>
               </div>
             </div>
@@ -58,8 +58,22 @@ const Skills = () => {
                 <p class="text-xs text-slate-600">Basic</p>
               </div>
             </div>
+            <div class="flex flex-row">
+              <img src={checkmark} alt="Experience icon" class="w-5 h-5 mx-5" />
+              <div>
+                <h3 class="font-bold">ExpressJS</h3>
+                <p class="text-xs text-slate-600">Basic</p>
+              </div>
+            </div>
+            <div class="flex flex-row">
+              <img src={checkmark} alt="Experience icon" class="w-5 h-5 mx-5" />
+              <div>
+                <h3 class="font-bold">NextJS</h3>
+                <p class="text-xs text-slate-600">Basic</p>
+              </div>
+            </div>
           </div>
-          <div class="bg-amber-300 md:w-1/2">
+          <div class="bg-amber-300 md:w-1/2 rounded-r-lg">
             <h2 class="text-2xl font-bold text-center m-4">
               Languages & technologies
             </h2>
@@ -107,6 +121,24 @@ const Skills = () => {
                   <h3 class="font-bold">Git/Github</h3>
                   <p class="text-xs text-slate-600">Experienced</p>
                 </div>
+              </div>
+              <div class="flex flex-row">
+                <img
+                  src={checkmark}
+                  alt="Experience icon"
+                  class="w-5 h-5 mx-5"
+                />
+                <div>
+                  <h3 class="font-bold">Postman</h3>
+                  <p class="text-xs text-slate-600">Experienced</p>
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-row">
+              <img src={checkmark} alt="Experience icon" class="w-5 h-5 mx-5" />
+              <div>
+                <h3 class="font-bold">VS code</h3>
+                <p class="text-xs text-slate-600">Experienced</p>
               </div>
             </div>
           </div>
