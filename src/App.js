@@ -6,6 +6,9 @@ import Skills from "./components/Skills";
 import Project from "./components/Project";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Certificate from "./components/Certificate";
+import Dsa from "./components/Dsa";
+
 function App() {
   return (
     <>
@@ -14,6 +17,8 @@ function App() {
       <About />
       <Skills />
       <Project />
+      <Certificate />
+      <Dsa />
       <Contact />
       <Footer />
     </>
